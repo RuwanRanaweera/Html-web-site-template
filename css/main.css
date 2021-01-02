@@ -1,0 +1,356 @@
+@charset "UTF-8";
+* { margin: 0; padding: 0;  }
+a  { text-decoration: none; color: red;  }
+
+p { margin-bottom: 15px;margin-top: 10px;font-size: 18px; color:#444;}
+
+
+
+.clearfix { overflow: auto }
+
+.wrapper {
+	margin:  0 auto;
+	width: 1000px;
+ 	
+
+}
+
+.top-bar {
+
+	width: 1000px;
+	background: maroon;
+
+}
+
+.top-bar-links {
+
+	float: left;
+
+}
+
+.top-bar-links ul {
+
+	margin: 15px;
+
+	list-style: none;
+
+}
+
+.top-bar-links ul li {
+
+	padding: 0 10px;	
+
+	display: inline-block;
+
+	border-right: 1px solid white;
+
+}
+.site-search {
+	margin: 15px;
+	padding: 3px 5px 3px 10px;
+
+	float: right;
+	background: white;
+	border-radius: 10px;
+	padding: 3px 5px 3px 10px;
+
+
+}
+
+.top-bar-links ul li a {
+
+	color: white; 
+}
+
+.top-bar-links ul li : last-child {
+
+	border: none;
+
+}
+
+.site-search input {
+
+	border: 0;
+	float: left;
+}
+.site-search button {
+
+	width: 18px;
+	height: 18px;
+
+	 background: url('images.png'); 
+	 border : 0;
+	 float: right;
+}
+
+header .logo {float: left;}
+
+header .logo h1 {
+
+ 	font-size: 48px;
+ 	font-variant: small-caps;
+ 	font-weight: normal;
+ 	letter-spacing: -1px;
+}   
+
+
+header .socialmedia ul li {
+	display: inline}
+
+header .socialmedia {
+ float: right; 
+ margin-top: 30px;
+}
+
+nav {
+	margin-top: 20px;
+	text-align: center;
+	background: #000;
+	background: linear-gradient(#000000, #595959 ,#000000);
+	border-radius: 10px;
+
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li {
+
+	display: inline;
+}	
+
+nav ul li a {
+	color: #fff;
+	text-transform: uppercase;
+	margin:10px 40px 10px 40px ;
+	
+	display: inline-block;
+}
+
+nav ul li a:hover{
+	color: red; 
+}
+
+div.intro{
+	width: 970px;
+	margin:15px;
+	margin-bottom: 0px;
+}
+
+div.intro div.introimage {
+	width: 400px;
+	float: left;
+	margin-top: 100px;
+
+}
+
+div.introimage img {
+
+	float: left;
+}
+
+
+div.intro div.introtext{
+	width: 570px;
+	float: left;
+}
+
+div.introtext h1 {
+	margin-top: 100px;
+	font-size: 62px;
+	text-transform: uppercase;
+	font-weight:normal;
+}
+
+div.introtext p {
+	font-size: 18px;
+}
+
+div.introtext a {
+	text-transform: uppercase;
+	
+	float: right;
+}
+
+div.homecontent {
+	width: 1000px;
+	background: #eee;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+
+div.home-col {
+	width: 313.33px;
+	float: left;
+	
+
+	margin-left: 15px;
+
+}
+
+div.home-col h2 {
+
+	margin: 30px 0 30px 0;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+div.home-col a {
+	float: right;
+
+}
+
+div.home-col img {
+	width: 313.33px;
+}
+
+div.services img {
+
+	width: 100px;
+	float: left;
+	margin-right: 15px; 
+}
+
+div.services p {
+	margin-top: 0px;
+}
+
+div.services{
+margin-bottom: 20px;
+
+}
+
+div.quote img {	
+
+	float: left;
+	width: 100px;
+}
+
+div.quote h3 {
+	margin-top: 20px;
+	margin-left: 15px;
+	float: left;
+}
+
+div.quote p {
+
+clear: both;
+
+}
+
+div.quote {
+	float: left;
+}
+
+footer {
+	width: 1000px;
+	margin-bottom:15px;
+	margin-top: 15px;
+	float: left;
+}
+
+div.footercol {
+	width: 231.25px;
+	float: left;
+	margin-left: 15px;
+	border-top: 1px solid #000;
+}
+
+div.footercol h4 {
+	text-transform: uppercase;
+	margin-top: 15px;
+	color: #444;
+	font-size: 20px;
+	margin-bottom: 15px;
+
+
+}
+
+div.tweet p {
+
+	font-size: 16px;
+}
+
+ul.quicklinks {
+	list-style: none;
+	margin-top: 10px;
+}
+
+ul.quicklinks li a {
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	display: block;
+	border-bottom: 1px solid #aaa;
+	color: #666;
+
+}
+
+ul.quicklinks li a:hover {
+	color: red;
+
+}
+
+ul.quicklinks li a::before {
+	content: "»";
+}
+
+div.blogpost h5 {
+
+	font-size: 20px;
+
+}
+
+div.blogpost p {
+	font-size: 16px;
+}
+
+div.blogpost a.readmore {
+	float: right;
+}
+
+div.blogpost {
+	clear: both;
+}
+
+form.Contact input,form.Contact textarea {
+	background: #eee;
+	padding: 5px;
+	margin-bottom: 8px;
+	width: 221.25px;
+	border: none;
+	border-radius: 5px;
+	font-family: inherit;
+	font-size: 16px;
+}
+
+form.Contact textarea {
+	height: 130px;
+}
+
+form.Contact button {
+	background: #eee;
+	color: red;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-family: inherit;
+}
+
+div.copyright {
+	width: 1000px;
+	background: #eee;
+	float: left;
+}
+
+div.left {
+	float: left;
+	margin: 20px;
+
+}
+
+div.right {
+	float: right;
+	margin:20px;
+}
